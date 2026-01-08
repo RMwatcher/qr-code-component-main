@@ -1,0 +1,47 @@
+:root {
+    --background-color: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit, Helvetica, sans-serif;
+    font-size: 15px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+figure img {
+    border-radius: 10px;
+    margin-bottom: -10px;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (width >= 320px) {
+    main {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    align-content: center;  
+    background-color: var(--background-color);
+    border-radius: 20px;
+    width: 310px;
+    border: 0 solid var(--background-color);
+    box-sizing: border-box;
+    }
+
+    #content { 
+        padding: 0 50px; 
+    }
+}
