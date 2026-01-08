@@ -10,6 +10,7 @@ body {
     align-content: center;
     justify-content: center;
     height: 100vh;
+    color: hsl(218, 44%, 22%);
 }
 
 figure img {
@@ -17,6 +18,10 @@ figure img {
     margin-bottom: -10px;
 }
 
+#content p {
+    color: hsl(216, 15%, 48%);
+
+}
 
 .attribution {
     font-size: 11px;
